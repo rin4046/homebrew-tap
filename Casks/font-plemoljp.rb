@@ -1,0 +1,26 @@
+cask "font-plemoljp" do
+  version "1.2.3"
+  sha256 "79c8ec815f22e9f518f1c424dff55742cb4bd7603151115bf6f75469957a07d5"
+
+  url "https://github.com/yuru7/PlemolJP/releases/download/v#{version}/PlemolJP_v#{version}.zip"
+  name "font-plemoljp"
+  desc "Plex Mono Language JP"
+  homepage "https://github.com/yuru7/PlemolJP"
+
+  font "PlemolJP_v#{version}/PlemolJP/PlemolJP-Bold.ttf"
+  font "PlemolJP_v#{version}/PlemolJP/PlemolJP-BoldItalic.ttf"
+  font "PlemolJP_v#{version}/PlemolJP/PlemolJP-ExtraLight.ttf"
+  font "PlemolJP_v#{version}/PlemolJP/PlemolJP-ExtraLightItalic.ttf"
+  font "PlemolJP_v#{version}/PlemolJP/PlemolJP-Italic.ttf"
+  font "PlemolJP_v#{version}/PlemolJP/PlemolJP-Light.ttf"
+  font "PlemolJP_v#{version}/PlemolJP/PlemolJP-LightItalic.ttf"
+  font "PlemolJP_v#{version}/PlemolJP/PlemolJP-Medium.ttf"
+  font "PlemolJP_v#{version}/PlemolJP/PlemolJP-MediumItalic.ttf"
+  font "PlemolJP_v#{version}/PlemolJP/PlemolJP-Regular.ttf"
+  font "PlemolJP_v#{version}/PlemolJP/PlemolJP-SemiBold.ttf"
+  font "PlemolJP_v#{version}/PlemolJP/PlemolJP-SemiBoldItalic.ttf"
+  font "PlemolJP_v#{version}/PlemolJP/PlemolJP-Text.ttf"
+  font "PlemolJP_v#{version}/PlemolJP/PlemolJP-TextItalic.ttf"
+  font "PlemolJP_v#{version}/PlemolJP/PlemolJP-Thin.ttf"
+  font "PlemolJP_v#{version}/PlemolJP/PlemolJP-ThinItalic.ttf"
+end
